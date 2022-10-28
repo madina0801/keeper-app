@@ -1,0 +1,52 @@
+:root {
+	--font: 'Poppins', sans-serif;
+	--title-color: #ffe8d6;
+	--footer-color: #222725;
+}
+
+body {
+	background-color: #efefd0;
+}
+
+.header-title {
+	margin-top: 0;
+	padding: 15px;
+	background-color: #b36a5e;
+	text-align: start;
+	font-family: var(--font);
+	color: var(--title-color);
+}
+
+.note {
+	font-family: var(--font);
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px #ccc;
+	padding: 10px;
+	width: 240px;
+	margin: 16px;
+	float: left;
+}
+
+.note h1 {
+	font-size: 1.1em;
+	margin-bottom: 6px;
+}
+
+.note p {
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+footer {
+	width: 100%;
+	background-color: #ebcfb2;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	color: var(--footer-color);
+	font-weight: 600;
+	font-family: var(--font);
+}
